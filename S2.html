@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PDF Hosting Website</title>
+  <style>
+    /* General Reset */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* Header Styles */
+    header {
+      background: #004080;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    /* Main Container */
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+
+    .category {
+      background: #f4f4f4;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .category:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .category h2 {
+      margin: 0 0 10px;
+      color: #004080;
+    }
+
+    .category a {
+      background: #004080;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      display: inline-block;
+      transition: background 0.3s;
+    }
+
+    .category a:hover {
+      background: #003060;
+    }
+
+    /* Directory Page */
+    .directory {
+      margin: 20px 0;
+    }
+
+    .section {
+      margin-bottom: 30px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 15px;
+      background: #f9f9f9;
+    }
+
+    .section h3 {
+      margin: 0 0 15px;
+      color: #004080;
+      font-size: 1.25rem;
+    }
+
+    .file {
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .file span {
+      margin-left: 10px;
+      color: black;
+    }
+
+    .file a {
+      color: #004080;
+      margin-left: auto;
+      font-size: 0.9rem;
+      text-decoration: none;
+    }
+
+    .section a.see-more {
+      color: #004080;
+      font-size: 0.9rem;
+      text-decoration: underline;
+      display: inline-block;
+      margin-top: 10px;
+    }
+    
+    /* Adding styles for the indicators */
+    .gdrive-indicator {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      margin-right: 8px;
+    }
+    
+    .gdrive-yes {
+      background-color: #4CAF50; /* Green */
+    }
+    
+    .gdrive-no {
+      background-color: #F44336; /* Red */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>UIR Info Directory</h1>
+  </header>
+  
+  <!-- Added Archive Button -->
+  <div class="container" style="text-align: center; margin-bottom: 20px;">
+    <a href="https://drive.google.com/drive/folders/1Rpv8zeTZzE1W34f4muDIzURkCBNuyxkC" target="_blank" style="background: #004080; color: #fff; padding: 10px 20px; border-radius: 5px; display: inline-block; transition: background 0.3s;">OPEN S2 ARCHIVE</a>
+  </div>
+  
+  <div class="container">
+    <!-- Section: Analyse II -->
+    <div class="section">
+      <h3>Analyse II</h3>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/examen_rattrapage_analyse2_2024.pdf" download>Examen de rattrapage analyse 2 (2024)</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/controle_final_analyse2_2024.pdf" download>Contrôle final analyse 2 (2024)</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/cc_2_analyse2_2024.pdf" download>CC 2 analyse 2 (2024)</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/td1_integration_riemann_correction.pdf" download>TD1 : Intégration de Riemann Correction</a>
+      </div>
+    </div>
+
+    <!-- Section: Algèbre II -->
+    <div class="section">
+      <h3>Algèbre II</h3>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/cf_algebre2_2024.pdf" download>CF Algèbre 2 2024</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/cc_algebre2_2024.pdf" download>CC Algèbre 2 2024</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/cf_algebre_2021_2022.pdf" download>CF Algèbre 2021-2022</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/corrige_cf_s2_2021.pdf" download>Corrigé CF S2 2021</a>
+      </div>
+    </div>
+
+    <!-- Section: Algorithmique II -->
+    <div class="section">
+      <h3>Algorithmique II</h3>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/tp3_les_chaines_de_caracteres_en_c.pdf" download>TP 3 Les chaînes de caractères en C</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/tp4_les_fonctions_en_c.pdf" download>TP 4 Les fonctions en C</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/tp5_les_pointeurs_en_c.pdf" download>TP 5 Les pointeurs en C</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/tp6_les_pointeurs_les_fonctions_et_les_tableaux_en_c.pdf" download>TP 6 Les pointeurs, les fonctions et les tableaux en C</a>
+      </div>
+    </div>
+
+    <!-- Section: Architecture des Ordinateurs -->
+    <div class="section">
+      <h3>Architecture des Ordinateurs</h3>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/chapitre_1_systeme_numerique_et_codage_de_linformation.pdf" download>Chapitre 1: Système numérique et codage de l'information</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-yes"></span>
+        <a href="https://drive.google.com/file/d/1Ks9Ej2Hs8Hs9Kj2Ls8Mj3Ns9Pq3Rs4Tt/view?usp=drive_link" download>Examen de Rattrapage Architecture des ordinateurs 2024</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/chapitre_2_logique_combinatoire.pdf" download>Chapitre 2: Logique Combinatoire</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/examen_final_architecture_des_ordinateurs_2024.pdf" download>Examen final architecture des ordinateurs (2024)</a>
+      </div>
+    </div>
+
+    <!-- Section: Algèbre I -->
+    <div class="section">
+      <h3>Algèbre I</h3>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/controle_final_algebre1_2024.pdf" download>Contrôle final algèbre 1 (2024)</a>
+      </div>
+    </div>
+
+    <!-- Section: Ondes et Lumières -->
+    <div class="section">
+      <h3>Ondes et Lumières</h3>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/td1_ondes_et_lumieres_correction.pdf" download>TD1: Ondes et Lumières + Correction</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/td2_ondes_et_lumieres_correction.pdf" download>TD2: Ondes et Lumières + correction</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/td3_et_td4_ondes_et_lumieres_correction.pdf" download>TD 3 & TD 4: Ondes et Lumières + Correction</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/chapitre_1_plan_syntese.pdf" download>Chapitre 1 - Plan syntèse</a>
+      </div>
+    </div>
+
+    <!-- Section: Optique -->
+    <div class="section">
+      <h3>Optique</h3>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/cc_optique_2022.pdf" download>CC Optique 2022</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/tous_les_corrections_tds_optique.pdf" download>Tous les Corrections TDs (Optique)</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/td_7_et_8_optique_correction.pdf" download>TD 7 et 8: Optique + Correction</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/cours_1_files_optique.pdf" download>Cours 1 Files (Optique)</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

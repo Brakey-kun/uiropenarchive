@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PDF Hosting Website</title>
+  <style>
+    /* General Reset */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* Header Styles */
+    header {
+      background: #004080;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    /* Main Container */
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+
+    .category {
+      background: #f4f4f4;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .category:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .category h2 {
+      margin: 0 0 10px;
+      color: #004080;
+    }
+
+    .category a {
+      background: #004080;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      display: inline-block;
+      transition: background 0.3s;
+    }
+
+    .category a:hover {
+      background: #003060;
+    }
+
+    /* Directory Page */
+    .directory {
+      margin: 20px 0;
+    }
+
+    .section {
+      margin-bottom: 30px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 15px;
+      background: #f9f9f9;
+    }
+
+    .section h3 {
+      margin: 0 0 15px;
+      color: #004080;
+      font-size: 1.25rem;
+    }
+
+    .file {
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .file span {
+      margin-left: 10px;
+      color: black;
+    }
+
+    .file a {
+      color: #004080;
+      margin-left: auto;
+      font-size: 0.9rem;
+      text-decoration: none;
+    }
+
+    .section a.see-more {
+      color: #004080;
+      font-size: 0.9rem;
+      text-decoration: underline;
+      display: inline-block;
+      margin-top: 10px;
+    }
+    
+    /* Adding styles for the indicators */
+    .gdrive-indicator {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      margin-right: 8px;
+    }
+    
+    .gdrive-yes {
+      background-color: #4CAF50; /* Green */
+    }
+    
+    .gdrive-no {
+      background-color: #F44336; /* Red */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>UIR Info Directory</h1>
+  </header>
+  
+  <!-- Added Archive Button -->
+  <div class="container" style="text-align: center; margin-bottom: 20px;">
+    <a href="https://drive.google.com/drive/folders/1Rpv8zeTZzE1W34f4muDIzURkCBNuyxkC" target="_blank" style="background: #004080; color: #fff; padding: 10px 20px; border-radius: 5px; display: inline-block; transition: background 0.3s;">OPEN S3 ARCHIVE</a>
+  </div>
+  
+  <div class="container">
+    <!-- Section: Electronique Analogique -->
+    <div class="section">
+      <h3>Electronique Analogique</h3>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/cf_electronique_analogique_2021.pdf" download>CF Electronique Analogique 2021</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/tous_les_corrections_tds_electronique_analogique.pdf" download>Tous les Corrections TDs (Electronique Analogique)</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/cf_electronique_analogique_2021_2022.pdf" download>CF Electronique Analogique 2021-2022</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/cc_electronique_analogique_2022.pdf" download>CC Electronique Analogique 2022</a>
+      </div>
+    </div>
+
+    <!-- Section: Architecture des ordinateurs -->
+    <div class="section">
+      <h3>Architecture des ordinateurs</h3>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/cc_architecture_des_ordinateurs_2024.pdf" download>CC Architecture des ordinateurs 2024</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/cf_architecture_des_ordinateurs_2023.pdf" download>CF Architecture des ordinateurs 2023</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/tp3_les_interruptions_correction.pdf" download>TP3: LES INTERRUPTIONS + Correction</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/cours_9_les_entrees_sorties.pdf" download>Cours 9: les entrées sorties</a>
+      </div>
+    </div>
+
+    <!-- Section: Analyse Numérique -->
+    <div class="section">
+      <h3>Analyse Numérique</h3>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/cf_analyse_numerique_2024.pdf" download>CF Analyse Numérique 2024</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/cc_analyse_numerique_2024.pdf" download>CC Analyse Numérique 2024</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/controle_de_rattrapage_analyse_numerique_2023.pdf" download>Contrôle de rattrapage Analyse numérique 2023</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/td_3_correction_analyse_numerique.pdf" download>TD 3 + Correction (Analyse Numérique)</a>
+      </div>
+    </div>
+
+    <!-- Section: Analyse 3 -->
+    <div class="section">
+      <h3>Analyse 3</h3>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/cf_analyse_3_2023.pdf" download>CF Analyse 3 2023</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/tds_suites_et_series_de_fonctions.pdf" download>TDs: Suites et Séries de Fonctions</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/cf_analyse_3_2022.pdf" download>CF Analyse 3 2022</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/tds_series_numeriques_correction.pdf" download>TDs: Séries Numériques + Correction</a>
+      </div>
+    </div>
+
+    <!-- Section: Réseau informatique -->
+    <div class="section">
+      <h3>Réseau informatique</h3>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/cours_reseaux_informatiques.pdf" download>Cours Réseaux Informatiques</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/tp_reseaux_informatiques.pdf" download>TP Réseaux Informatiques</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/cc_reseaux_informatiques_2023.pdf" download>CC Réseaux Informatiques 2023</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/cf_reseaux_informatiques_2023.pdf" download>CF Réseaux Informatiques 2023</a>
+      </div>
+    </div>
+
+    <!-- Section: Algèbre 2 -->
+    <div class="section">
+      <h3>Algèbre 2</h3>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/cours_algebre_2.pdf" download>Cours Algèbre 2</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/td_algebre_2_espaces_vectoriels.pdf" download>TD Algèbre 2: Espaces Vectoriels</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/td_algebre_2_applications_lineaires.pdf" download>TD Algèbre 2: Applications Linéaires</a>
+      </div>
+      <div class="file">
+        <span class="gdrive-indicator gdrive-no"></span>
+        <a href="pdfs/cc_algebre_2_2023.pdf" download>CC Algèbre 2 2023</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
