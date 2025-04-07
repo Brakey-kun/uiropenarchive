@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PDF Hosting Website</title>
+  <style>
+    /* General Reset */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* Header Styles */
+    header {
+      background: #004080;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    /* Main Container */
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+
+    .category {
+      background: #f4f4f4;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .category:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .category h2 {
+      margin: 0 0 10px;
+      color: #004080;
+    }
+
+    .category a {
+      background: #004080;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      display: inline-block;
+      transition: background 0.3s;
+    }
+
+    .category a:hover {
+      background: #003060;
+    }
+
+    /* Directory Page */
+    .directory {
+      margin: 20px 0;
+    }
+
+    .section {
+      margin-bottom: 30px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 15px;
+      background: #f9f9f9;
+    }
+
+    .section h3 {
+      margin: 0 0 15px;
+      color: #004080;
+      font-size: 1.25rem;
+    }
+
+    .file {
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .file span {
+      margin-left: 10px;
+      color: black;
+    }
+
+    .file a {
+      color: #004080;
+      margin-left: auto;
+      font-size: 0.9rem;
+      text-decoration: none;
+    }
+
+    .section a.see-more {
+      color: #004080;
+      font-size: 0.9rem;
+      text-decoration: underline;
+      display: inline-block;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Directory Page (uir-info.html) -->
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UIR Info Directory</title>
+  </head>
+  <body>
+    <header>
+      <h1>UIR Info Directory</h1>
+    </header>
+    <div class="container">
+      <!-- Section: Analyse -->
+      <div class="section">
+        <h3>Analyse</h3>
+        <div class="file">
+          <a href="pdfs/analyse1.pdf" download>PLACEHOLDER</a>
+        </div>
+        <div class="file">
+          <a href="pdfs/analyse2.pdf" download>Download</a>
+        </div>
+        <div class="file">
+          <a href="pdfs/analyse3.pdf" download>Download</a>
+        </div>
+        <div class="file">
+          <a href="pdfs/analyse4.pdf" download>Download</a>
+        </div>
+      </div>
+
+      <!-- Section: Algèbre -->
+      <div class="section">
+        <h3>Algèbre</h3>
+        <div class="file">
+          <a href="pdfs/algebra1.pdf" download>Download</a>
+        </div>
+        <div class="file">
+          <a href="pdfs/algebra2.pdf" download>Download</a>
+        </div>
+      </div>
+
+      <!-- Section: Informatique -->
+      <div class="section">
+        <h3>Informatique</h3>
+        <div class="file">
+          <a href="pdfs/informatique1.pdf" download>Download</a>
+        </div>
+        <div class="file">
+          <a href="pdfs/informatique2.pdf" download>Download</a>
+        </div>
+      </div>
+
+      <!-- Section: Électricité -->
+      <div class="section">
+        <h3>Électricité</h3>
+        <div class="file">
+          <a href="pdfs/electricite1.pdf" download>Download</a>
+        </div>
+        <div class="file">
+          <a href="pdfs/electricite2.pdf" download>Download</a>
+        </div>
+      </div>
+    </div>
+  </body>
+  </html>
+</body>
+</html>
