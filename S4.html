@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PDF Hosting Website</title>
+  <title>ESIN - Semestre 4</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
   <style>
     /* General Reset */
     body {
@@ -23,10 +24,28 @@
       color: #fff;
       padding: 20px;
       text-align: center;
+      position: relative;
     }
 
     header h1 {
       margin: 0;
+    }
+    
+    .home-button {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background: #fff;
+      color: #004080;
+      padding: 8px 15px;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: all 0.3s;
+    }
+    
+    .home-button:hover {
+      background: #e0e0e0;
+      transform: scale(1.05);
     }
 
     /* Main Container */
@@ -128,16 +147,32 @@
     .gdrive-no {
       background-color: #F44336; /* Red */
     }
+    
+    /* Archive Button Styles */
+    .archive-button {
+      background: #004080;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      display: inline-block;
+      transition: all 0.3s;
+    }
+    
+    .archive-button:hover {
+      background: #003060;
+      transform: scale(1.05);
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>UIR Info Directory</h1>
+    <a href="index.html" class="home-button">Home</a>
   </header>
   
   <!-- Added Archive Button -->
   <div class="container" style="text-align: center; margin-bottom: 20px;">
-    <a href="https://drive.google.com/drive/folders/1Rpv8zeTZzE1W34f4muDIzURkCBNuyxkC" target="_blank" style="background: #004080; color: #fff; padding: 10px 20px; border-radius: 5px; display: inline-block; transition: background 0.3s;">OPEN S4 ARCHIVE</a>
+    <a href="https://drive.google.com/drive/folders/1Rpv8zeTZzE1W34f4muDIzURkCBNuyxkC" target="_blank" class="archive-button">OPEN S4 ARCHIVE</a>
   </div>
   
   <div class="container">
@@ -611,6 +646,7 @@
         <span class="gdrive-indicator gdrive-yes"></span>
         <a href="https://drive.google.com/file/d/1gFf6hiTY5o0gvk68NUTlzJ2QxLBi6jRn/view?usp=drive_link" download>CC 2025</a>
       </div>
+      <div class="file">
       <span class="gdrive-indicator gdrive-yes"></span>
         <a href="https://drive.google.com/file/d/13nL9emcd3-V5xILWxR6sk7eMypUnL8rC/view?usp=drive_link" download>Cours Lignes de Transmission</a>
       </div>

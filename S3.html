@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PDF Hosting Website</title>
+  <title>ESIN - Semestre 3</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
   <style>
     /* General Reset */
     body {
@@ -11,7 +12,38 @@
       font-family: Arial, sans-serif;
       line-height: 1.6;
     }
+    
+    /* Header Styles */
+    header {
+      background: #004080;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+    }
 
+    header h1 {
+      margin: 0;
+    }
+    
+    .home-button {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background: #fff;
+      color: #004080;
+      padding: 8px 15px;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: all 0.3s;
+    }
+    
+    .home-button:hover {
+      background: #e0e0e0;
+      transform: scale(1.05);
+    }
+    
+    /* Rest of your CSS */
     a {
       text-decoration: none;
       color: inherit;
@@ -133,11 +165,13 @@
 <body>
   <header>
     <h1>UIR Info Directory</h1>
+    <a href="index.html" class="home-button">Home</a>
   </header>
   
   <!-- Added Archive Button -->
+  <!-- Archive Button with new class -->
   <div class="container" style="text-align: center; margin-bottom: 20px;">
-    <a href="https://drive.google.com/drive/folders/1AS_TXUw18c-fL6F5acXahfoRXXTo_43v?usp=drive_link" target="_blank" style="background: #004080; color: #fff; padding: 10px 20px; border-radius: 5px; display: inline-block; transition: background 0.3s;">OPEN S3 ARCHIVE</a>
+    <a href="https://drive.google.com/drive/folders/YOUR_S3_FOLDER_ID" target="_blank" class="archive-button">OPEN S3 ARCHIVE</a>
   </div>
   
   <div class="container">
