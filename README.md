@@ -16,7 +16,7 @@ UIR Info Directory is a comprehensive academic resource platform designed specif
   - Lines & Transmissions
 
 - **Resource Availability Indicators**: 
-  - Visual indicators showing whether documents are available on Google Drive (green) or local storage (red)
+  - Visual indicators showing whether documents are available on Google Drive (green) or unaccessible/unavailable (red)
   - Direct download links for local PDFs
   - Direct access to Google Drive documents
 
